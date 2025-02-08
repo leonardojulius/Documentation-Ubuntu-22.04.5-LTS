@@ -32,3 +32,9 @@ Run the following command to install PHP 8.2 and common extensions used in Larav
 ```bash
 sudo apt install php8.2 php8.2-cli php8.2-mbstring php8.2-xml php8.2-bcmath php8.2-curl php8.2-zip php8.2-tokenizer php8.2-intl php8.2-sqlite3 php8.2-mysql -y
 ```
+
+## 6. Verify PHP Version
+
+```bash
+php -v
+```
