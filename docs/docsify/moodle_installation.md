@@ -190,6 +190,30 @@ http://localhost/moodle
 - Enter the database name, user, and password.
 - Complete the installation.
 
+  -- 1. Open the php.ini file in a text editor (use nano or vim)
+
+  ```bash
+   sudo nano /etc/php/8.1/apache2/php.ini
+  ```
+  -- 2. Search for max_input_vars by pressing CTRL + W, then type:
+
+  ```bash
+  max_input_vars
+  ```
+
+  -- 3. Change the value:
+
+  ```bash
+  max_input_vars = 5000
+  ```
+Restart Apache/Nginx
+After making the change, restart your web server:
+
+For Apache
+
+```bash
+sudo systemctl restart apache2
+```
 ## Step 8: Set Up Moodle Cron Job (Optional)
 
 To ensure Moodle runs background tasks properly, set up a cron job:
@@ -197,6 +221,8 @@ To ensure Moodle runs background tasks properly, set up a cron job:
 ```bash
 sudo crontab -u www-data -e
 ```
+
+
 
 Add this line:
 

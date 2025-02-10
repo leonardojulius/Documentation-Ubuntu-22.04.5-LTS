@@ -2,7 +2,7 @@
 
   - [Installation](docsify/docsify_installation.md)
 
-- Moodle 4.5.1
+- Moodle 4.0.3
 
   - [Installation](docsify/moodle_installation.md)
 
