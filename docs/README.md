@@ -1,12 +1,13 @@
 ## What it is
 
-This is for my personal & informational purposes use only. 
+> A guide for deploying software & web application using ubuntu 22.04.5 LTS
 
 
 !> Disclaimer
 
-The information provided in this deployment guide is for informational purposes only. While we strive to ensure accuracy, we do not guarantee that the steps outlined will work in all environments or configurations. Deployment processes may vary depending on system settings, dependencies, and third-party integrations.
 
-Before proceeding with deployment, it is strongly recommended to back up all critical data and test the deployment in a staging environment to avoid potential issues.
+This document is provided for research and informational purposes only. The deployment procedures, recommendations, and technical details outlined herein are based on general best practices and may not be suitable for all environments.
 
-We are not responsible for any data loss, system failures, or security vulnerabilities resulting from the use of this guide. Users should exercise caution and refer to official documentation or seek professional assistance if necessary.
+Any actions taken based on this document are at the reader’s own risk. We are not responsible for any direct or indirect consequences, including but not limited to data loss, system failures, or security vulnerabilities, arising from the use of this information.
+
+Readers are encouraged to verify details independently and consult with qualified professionals before implementing any deployment processes.
