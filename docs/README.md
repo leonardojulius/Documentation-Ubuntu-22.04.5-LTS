@@ -1,4 +1,6 @@
-# Deployment guide for apps running under ubuntu 22.04.5-lts
+## What it is
 
-> [documentation site.](https://leonardojulius.github.io/Documentation-Ubuntu-22.04.5-LTS)
+This is for my personal use only. 
+
+Disclaimer: Use is advised
 
