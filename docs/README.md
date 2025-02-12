@@ -10,4 +10,12 @@ This document is provided for research and informational purposes only. The depl
 
 Any actions taken based on this document are at the reader’s own risk. We are not responsible for any direct or indirect consequences, including but not limited to data loss, system failures, or security vulnerabilities, arising from the use of this information.
 
-Readers are encouraged to verify details independently and consult with qualified professionals before implementing any deployment processes.
+By proceeding, we strongly suggest using a lab environment or sandbox tools to test and validate the deployment process before applying it to a live system.
+
+
+## Contents
+
+ - [Ubuntu](docsify/_ubuntu/ssh.md)
+ - [Docsify](docsify/docsify_installation.md)
+ - [Moodle 4.0.3](docsify/moodle_installation.md)
+ - [Laravel - 11](docsify/laravel11_installation.md)
