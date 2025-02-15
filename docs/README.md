@@ -19,3 +19,11 @@ By proceeding, we strongly suggest using a lab environment or sandbox tools to t
  - [Docsify](docsify/docsify_installation.md)
  - [Moodle 4.0.3](docsify/moodle_installation.md)
  - [Laravel - 11](docsify/laravel11_installation.md)
+
+## References 
+
+
+[Official Ubuntu Docs](https://ubuntu.com/server/docs)
+
+[Linuxteck](https://www.linuxteck.com/how-to-install-ubuntu-22-04-lts-step-by-step/)
+
