@@ -1,6 +1,5 @@
 - Ubuntu 
 
-
   - [SSH-Installation](docsify/_ubuntu/ssh.md)
   - [Add-Insert-Delete(File)](docsify/_ubuntu/filing.md)
   - [Change Timezone](docsify/_ubuntu/timezone.md)
