@@ -2,9 +2,9 @@
 
 > A guide for deploying software & web application using ubuntu 22.04.5 LTS
 
-docsify Link https://leonardojulius.github.io/Documentation-Ubuntu-22.04.5-LTS/#/
+ Live Preview  https://leonardojulius.github.io/Documentation-Ubuntu-22.04.5-LTS/#/
 
- Disclaimer
+Disclaimer
 
 
 This document is provided for research and informational purposes only. The deployment procedures, recommendations, and technical details outlined herein are based on general best practices and may not be suitable for all environments.
