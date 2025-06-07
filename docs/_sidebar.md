@@ -7,6 +7,8 @@
 - Git & GitHub
 
   - [Cloning SSH-HTTPS](docsify/git/cloning.md)
+  - [VSCode-SSH to Github Connection](docsify/git/sshcon.md)
+
 
 - Docsify 4.4.4
 
