@@ -98,22 +98,19 @@ sudo apt install git -y
 ```
 
 ```bash
-wget -O moodle-latest.tgz https://download.moodle.org/download.php/direct/stable403/moodle-latest-403.tgz
+sudo wget -O moodle-latest.tgz https://download.moodle.org/download.php/direct/stable403/moodle-latest-403.tgz
 ```
 
 Then extract:
 
 ```bash
-tar -xvzf moodle-latest.tgz
+sudo tar -xvzf moodle-latest.tgz
 ```
 
 
 
 Move the extracted Moodle folder to the Apache web root:
 
-```bash
-sudo mv moodle /var/www/html/
-```
 
 Set the correct permissions:
 
@@ -181,14 +178,34 @@ sudo systemctl restart apache2
 1. Open a browser and go to
 
 ```url
-http://localhost/moodle
+http://localhost
 ```
 
+
+
+Create the moodledata directory manually
+
+```bash
+sudo mkdir /var/www/html/moodledata
+```
+
+Set proper ownership (assuming web server user is www-data)
+```bash
+sudo chown -R www-data:www-data /var/www/html/moodledata
+```
+
+ Set proper permissions
+
+```bash
+sudo chmod -R 755 /var/www/html/moodledata
+```
 
 2. Follow the installation steps:
 - Choose MySQL as the database type.
 - Enter the database name, user, and password.
 - Complete the installation.
+- set port 3306
+
 
   -- 1. Open the php.ini file in a text editor (use nano or vim)
 
