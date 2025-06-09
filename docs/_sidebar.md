@@ -17,7 +17,7 @@
 - Moodle 4.0.3
 
   - [Installation](docsify/_moodle/moodle_installation.md)
-  - [Misc](docsify/_moodle/moodle_installation.md)
+  - [Misc](docsify/_moodle/misc.md)
 
 - Laravel 11
 

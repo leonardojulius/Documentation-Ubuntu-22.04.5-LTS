@@ -253,3 +253,21 @@ Add this line:
 ```url
 http://localhost/moodle
 ```
+
+
+## Step 10: Increase upload size
+
+```url
+ sudo nano /etc/php/8.1/apache2/php.ini
+```
+
+Look for 
+
+```ini
+upload_max_filesize = 100M
+post_max_size = 100M
+```
+
+```bash
+ sudo systemctl restart apache2
+```
